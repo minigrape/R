@@ -1,7 +1,7 @@
 getwd() #查看当前目录，就不用写完整路径了
 setwd() #设置目录，就不用写完整路径了
 
-# 完整路径写法 反双杠setwd("D://百度云同步盘//学习//工作技能学习//Rfile")
+# 完整路径写法 反双杠setwd("D://**//Rfile")
 #更改默认路径方法：右键R桌面快捷方式,选择属性,然后在快捷方式下的起始位置(start in)输入你想要的路径即可.
 dispatch<-read.csv("dispatch analysis.csv",header=TRUE)
 #读取csv格式，对xls格式支持不好。object命名为dispatch。
